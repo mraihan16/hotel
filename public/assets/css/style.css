@@ -1,0 +1,173 @@
+.container{
+    max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.nav-left{
+    float: left;
+}
+
+.nav-left-h1{
+  float: left;
+  font-size: 200px;
+}
+
+
+nav {
+    height: 65px;
+    width: 100%;
+    background-color: ;
+    top: 0;
+    z-index: 10;
+    top: 100px;
+  }
+
+  .nav-right {
+    float: right;
+    margin-right: -25px;
+  }
+  .nav-right a {
+    margin-bottom: 10px;
+    right: 10px;
+    line-height: 0%;
+    line-height: 65px;
+    padding: 0 25px;
+    color: ;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    text-decoration-color: blue;
+    background: ;
+    letter-spacing: 1px;
+  }
+  
+  .nav-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .logo{
+    background-color: ;
+  }
+
+  .logo-h1{
+    background-color: ;
+  } 
+
+  .form {
+    display: flex;
+    margin-left: 82%;
+    background-color: ;
+    max-height: auto;
+    border: 10px;
+    
+
+  }
+
+  .form a{
+    display: flex;
+    background-color: ;
+    border-style: solid;
+    text-decoration: none;
+    
+  }
+
+  .fasilitas{
+    display: flex;
+    font-size: 25px;
+    background-color: ;
+    
+  }
+
+  .superior{
+    display: flex;
+    font-size: 25px;
+    background-color: ;
+  }
+
+  .deluxe{
+    display: flex;
+    font-size: 25px;
+    background-color: ;
+  }
+
+  .form-floating{
+    display: flex;
+    padding: 5px;
+    background-color: ;
+    
+    
+  }
+
+  body{
+    background-color: grey;
+  }
+
+  .gambar img{
+    background-color: navajowhite;
+    width: 78%%;
+    height: 350px;
+    border-radius: 5%;
+  
+  }
+
+  .gambar-superior img{
+    width: 78%%;
+    height: 150px;
+    border-radius: 8%;
+    
+  }
+
+  .gambar-fasilitas{
+    border-radius: 5%;
+    
+  }
+
+  .gambar-deluxe img{
+    width: 78%%;
+    height: 150px;
+    border-radius: 8%;
+    
+  }
+
+  .container h1{
+    text-align: left;
+    color: black;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border-bottom: 4px solid ;
+}
+.container label{
+    text-align: left;
+    color: black;
+}
+.container form input{
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    color: #fff;
+    font-size: 20px;
+}
+.container form button{
+    width: 100%;
+    padding: 5px 0;
+    border: none;
+    background-color: black;
+    font-size: 18px;
+    color: #fafafa;
+}
+
+.container form select{
+  width: calc(100% - 20px);
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid white;
+  color: #fff;
+  font-size: 20px;
+}
