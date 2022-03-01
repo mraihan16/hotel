@@ -25,10 +25,10 @@
 <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>CRUD Absensi</h2>
+                <h2></h2>
             </div>
             <div class="pull-right">
-                <!-- <a class="btn btn-success" href="{{ route('students.create') }}"> Create</a> -->
+                <!-- <a class="btn btn-success" href="{{ route('') }}"> Create</a> -->
             </div>
         </div>
     </div>
@@ -42,25 +42,17 @@
     <table class="table table-bordered">
         <tr>
             <th>No</th>
-            <th>Nis</th>
-            <th>Nama</th>
-            <th>Rombel</th>
-            <th>Rayon</th>
             <th>Keterangan</th>
             <th width="280px">Action</th>
         </tr>
-        <!-- @foreach ($students as $student) -->
+        <!-- @foreach ( as ) -->
         <tr>
             <td>{{ ++$i }}</td>
-            <td>{{ $student->nis }}</td>
-            <td>{{ $student->nama }}</td>
-            <td>{{ $student->rombel }}</td>
-            <td>{{ $student->rayon }}</td>
-            <td>{{ $student->ket}}</td>
+            <td>{{ $->ket}}</td>
             <td>
-                <!-- <form action="{{ route('students.destroy',$student->id) }}" method="POST"> -->
+                <!-- <form action="{{ route('',) }}" method="POST"> -->
            
-                    <!-- <a class="btn btn-primary" href="{{ route('students.edit',$student->id) }}">Edit</a> -->
+                    <!-- <a class="btn btn-primary" href="{{ route('',) }}">Edit</a> -->
      
                     @csrf
                     @method('DELETE')
@@ -72,7 +64,7 @@
         @endforeach
     </table>
     
-    {!! $students->links() !!}
+    {!! ->links() !!}
         
 
 </body>
